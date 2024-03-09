@@ -1,4 +1,6 @@
 :root {
+
+  /* Blue */
   --blue-50: #E3F2FD;
   --blue-100: #BBDEFB;
   --blue-200: #90CAF9;
@@ -9,4 +11,17 @@
   --blue-700: #1976D2;
   --blue-800: #1565C0;
   --blue-900: #0D47A1;
+
+  /* Orange */
+
+  --orange-50: #fff3e0;
+  --orange-100: #ffe0b2;
+  --orange-200: #ffcc80;
+  --orange-300: #ffb74d;
+  --orange-400: #ffa726;
+  --orange-500: #ff9800;
+  --orange-600: #fb8c00;
+  --orange-700: #f57c00;
+  --orange-800: #ef6c00;
+  --orange-900: #e65100;
 }
