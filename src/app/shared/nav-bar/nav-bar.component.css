@@ -1,0 +1,23 @@
+@import 'src/colors.css';
+
+.navbar {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar-container {
+  background-color: var(--blue-200);
+}
+
+.dropdown-menu {
+  background-color: var(--blue-200);
+  padding: 0;
+  margin-top: 0;
+  border: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.navbar {
+  margin-top: 0;
+  padding: 0;
+}
