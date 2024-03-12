@@ -1,0 +1,97 @@
+.campos {
+  border-radius: 4px;
+  width: 72%;
+  margin-left: 14%;
+  margin-top: 12%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  color: black;
+  margin-top: 13%;
+  margin-bottom: 2%;
+}
+
+.card-inicio-sesion {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.card-body {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+button {
+  border-radius: 100px;
+  width: 180px;
+  height: 40px;
+  background-color: rgb(181, 97, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(181, 97, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-registrarse {
+  border-radius: 100px;
+  width: 180px;
+  height: 40px;
+  background-color: rgb(181, 97, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.iniciar-sesion {
+  margin-left: 24%;
+  margin-top: 20%;
+}
+
+.registrarse {
+  margin-left: 24%;
+  margin-top: 8%;
+  margin-bottom: 10%;
+}
+
+.btn-iniciar-sesion {
+  border-radius: 100px;
+  width: 180px;
+  height: 40px;
+  background-color: rgb(181, 97, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.olvidaste-contrasena-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 14px;
+}
+
+.contrasena-olvidada {
+  margin-left: 26%;
+  margin-top: 4%;
+}
+
+
+
+
+
+
