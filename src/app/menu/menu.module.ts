@@ -13,4 +13,4 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
   ],
   exports: [NavBarComponent]
 })
-export class SharedModule { }
+export class MenuModule { }
