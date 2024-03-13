@@ -2,50 +2,45 @@
 <div class="container-fluid">
   <h2 class="title text-center">Estadísticas rutina</h2>
   <div class="row justify-content-center">
-    <div class="card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
-      <div class="card h-100">
-        <div class="card-header text-center">
-          Tu rutina más usada fue:
-        </div>
-        <div class="card-body">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Abdomen</li>
-          </ul>
-        </div>
+    <!-- Text cards -->
+    <div class="text-card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
+      <div class="text-card">
+        <p class="card-title">Tu rutina más usada fue:</p>
+        <br>
+        <ul>
+          <li><p class="text-value">Abdomen</p></li>
+        </ul>
       </div>
     </div>
-    <div class="card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
-      <div class="card h-100">
-        <div class="card-header text-center">
-          La rutina con más intensidad esta semana fue:
-        </div>
-        <div class="card-body">
-          <div>1. Espalda:</div>
-          <ul>
-            <li>2 min x ejercicio</li>
-            <li>1 min x descanso</li>
-          </ul>
-        </div>
+    <div class="text-card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
+      <div class="text-card">
+        <p class="card-title">La rutina con más intensidad esta semana fue:</p>
+        <br>
+        <p class="text-value">1. Espalda:</p>
+        <ul>
+          <li>2 min x ejercicio</li>
+          <li>1 min x descanso</li>
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
+
+    <!-- Chart cards -->
+    <div class="chart-card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
       <div class="card h-100">
-        <div class="card-header text-center">
-          Horas de ejercicio semanal
-        </div>
         <div class="card-body">
+          <div class="card-header text-center">
+            Horas de ejercicio semanal
+          </div>
           <canvas id="horas-ejercicio"></canvas>
         </div>
       </div>
     </div>
-    <div class="card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
+    <div class="chart-card-background col-10 col-md-5 col-sm-4 col-lg-5 mb-4 my-4 mx-5">
       <div class="card h-100">
-        <div class="card-header text-center">
-          Calorías gastadas por rutina
-        </div>
         <div class="card-body">
+          <div class="card-header text-center">
+            Calorías gastadas por rutina
+          </div>
           <canvas id="calorias-gastadas"></canvas>
         </div>
       </div>

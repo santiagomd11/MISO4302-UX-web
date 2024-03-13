@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   padding: 2rem;
 }
 
@@ -9,27 +9,52 @@
   margin-bottom: 2rem;
 }
 
-.card-background {
+.text-card-background, .chart-card-background {
   background-color: var(--blue-50);
-  padding: 16px;
   border-radius: 12px;
-  margin: 0.5rem;
+  margin: 1rem;
+  padding: 16px;
 }
 
 .card-header {
   font-family: 'Roboto', sans-serif;
   color: #848484;
+  background-color: transparent;
 }
 
-.info-box {
-  background-color: var(--blue-50);
-  padding: 16px;
-  margin: 0.5rem;
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.text-value {
+  font-size: 1rem;
+  color: #333;
+}
+
+.text-card {
+  min-height: 250px; /* Adjust as needed */
+}
+
+.chart-card-background .card-body {
+  background-color: #fff; /* White background for charts */
   border-radius: 12px;
+  padding: 1rem;
 }
 
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+/* Adjustments for larger screens can be made with a media query */
 @media (min-width: 768px) {
-  .card-background, .info-box {
-    margin: 1rem;
+  .text-card-background, .chart-card-background {
+    padding: 2rem; /* More padding on larger screens */
   }
 }
