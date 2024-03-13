@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MenuModule } from './menu/menu.module';
 import { EstadisticaCalentamientoModule } from './estadistica-calentamiento/estadistica-calentamiento.module';
 import { RegistroModule } from './registro/registro.module';
+import { EstadisticasRutinaModule } from './estadisticas-rutina/estadisticas-rutina.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RegistroModule } from './registro/registro.module';
     AppRoutingModule,
     MenuModule,
     EstadisticaCalentamientoModule,
-    RegistroModule
+    RegistroModule,
+    EstadisticasRutinaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
