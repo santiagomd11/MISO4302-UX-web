@@ -32,7 +32,6 @@ export class EstadisticasRutinaContenidoComponent implements OnInit {
       data: {
         labels: ['L', 'Mar', 'Mier', 'J', 'V', 'S', 'D'],
         datasets: [{
-          label: 'Horas de ejercicio',
           data: [1, 2, 1.5, 2, 2.5, 0, 0], // Replace with actual data
           backgroundColor: 'rgba(255, 200, 138, 0.7)',
           borderColor: 'rgba(255, 200, 138, 1)',
@@ -44,6 +43,12 @@ export class EstadisticasRutinaContenidoComponent implements OnInit {
         scales: {
           y: {
             beginAtZero: true
+          }
+        },
+        plugins: {
+
+          legend: {
+            display: false
           }
         }
       }
@@ -61,7 +66,6 @@ export class EstadisticasRutinaContenidoComponent implements OnInit {
       data: {
         labels: ['Pecho', 'Femoral', 'Abdomen', 'Bíceps', 'Tríceps'],
         datasets: [{
-          label: 'Calorías gastadas',
           data: [300, 250, 400, 200, 100], // Replace with actual data
           backgroundColor: 'rgba(255, 159, 64, 0.7)',
           borderColor: 'rgba(255, 159, 64, 1)',
@@ -70,7 +74,13 @@ export class EstadisticasRutinaContenidoComponent implements OnInit {
       },
       options: {
         responsive: true,
-        indexAxis: 'y', // This makes the bar chart horizontal
+        indexAxis: 'y',
+        plugins: {
+
+          legend: {
+            display: false
+          }
+        },
         scales: {
           x: {
             beginAtZero: true
