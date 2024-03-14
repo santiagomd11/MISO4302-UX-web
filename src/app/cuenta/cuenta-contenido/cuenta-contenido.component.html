@@ -1,0 +1,58 @@
+<app-nav-bar></app-nav-bar>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <!-- User Info Card -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body user-info">
+          <div class="user-icon text-center mb-3">
+            <img src="assets/user_icon.svg" alt="User Icon">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control" value="unknown" disabled>
+          </div>
+          <div>
+            <label class="form-label">Correo</label>
+            <input type="email" class="form-control" value="unknown@gmail.com" disabled>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Account Management Card -->
+    <div class="col-md-6">
+      <div class="card gestionar-cuenta-card">
+        <div class="card-body">
+          <h3 class="card-title text-center mb-4">Gestionar cuenta</h3>
+          <form>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control" placeholder="Correo">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Contraseña actual</label>
+                <input type="password" class="form-control" placeholder="Contraseña actual">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label class="form-label">Contraseña nueva</label>
+                <input type="password" class="form-control" placeholder="Contraseña nueva">
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-guardar me-2">Guardar</button>
+              <button type="button" class="btn btn-desactivar me-2">Desactivar cuenta</button>
+              <button type="button" class="btn btn-eliminar">Eliminar cuenta</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
