@@ -1,0 +1,66 @@
+.container {
+  padding: 2rem 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.user-info {
+  background-color: var(--blue-50);
+  color: #333;
+  padding: 2rem;
+  border-radius: 12px;
+  height: 25rem;
+}
+
+.user-icon {
+  font-size: 3rem; /* Adjust icon size */
+  margin-bottom: 1rem;
+}
+
+.gestionar-cuenta-card {
+  background-color: var(--blue-50);
+  padding: 1rem;
+  height: 25rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+}
+
+.btn {
+  border-radius: 100px;
+  padding: 0.375rem 0.75rem;
+  font-size: 15px;
+  text-transform: capitalize;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-guardar {
+  color: #fff;
+  background-color: rgb(181, 97, 0); /* Orange color */
+  border-color: rgb(181, 97, 0);
+}
+
+.btn-desactivar {
+  color: #fff;
+  background-color: rgb(181, 97, 0); /* Orange color */
+  border-color: #ffc107;
+}
+
+.btn-eliminar {
+  color: #fff;
+  background-color: rgb(181, 97, 0); /* Orange color */
+  border-color: #dc3545;
+}

@@ -4,6 +4,7 @@ import { EstadisticaCalentamientoContenidoComponent } from './estadistica-calent
 import { InicioSesionContenidoComponent } from './inicio-sesion/inicio-sesion-contenido/inicio-sesion-contenido.component';
 import { RegistroContenidoComponent } from './registro/registro-contenido/registro-contenido.component';
 import { EstadisticasRutinaContenidoComponent } from './estadisticas-rutina/estadisticas-rutina-contenido/estadisticas-rutina-contenido.component';
+import { CuentaContenidoComponent } from './cuenta/cuenta-contenido/cuenta-contenido.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/iniciar-sesion', pathMatch: 'full' },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'estadistica-rutina', component: EstadisticasRutinaContenidoComponent,  pathMatch: 'full' },
   { path: 'iniciar-sesion', component: InicioSesionContenidoComponent,  pathMatch: 'full' },
   { path: 'registrarse', component: RegistroContenidoComponent,  pathMatch: 'full' },
+  { path: 'cuenta', component: CuentaContenidoComponent,  pathMatch: 'full' },
 ];
 
 @NgModule({
