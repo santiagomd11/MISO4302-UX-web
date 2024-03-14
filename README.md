@@ -1,27 +1,38 @@
 # FriendlyGym
+IMPORTANTE: tener instaladas las siguientes versiones para poder correr el proyecto 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+Versiones:  
+* angular cli 16.2.12.
+* node: 18.19.1
 
-## Development server
+## Ejecutar localmente: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Opcion 1: Comandos:
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+  npm install
+```
 
-## Build
+```bash
+  ng serve
+```
+Despues de que este comando se ejecute satisfactoriamente, ingresar al siguiente enlace: 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+  localhost:4200
+```
 
-## Running unit tests
+### Opcion 2: Docker:
+Instalar docker desktop: https://www.docker.com/products/docker-desktop/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+  docker compose up --build
+```
+Despues de que este comando se ejecute satisfactoriamente, ingresar al siguiente enlace: 
 
-## Running end-to-end tests
+```bash
+  localhost:4200
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
